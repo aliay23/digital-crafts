@@ -12,7 +12,7 @@
     }
 #header
 {
-    position: fixed;
+    position: float;
     z-index: 1;
     height:40px;
     width: 100%;
@@ -37,7 +37,8 @@
 	padding-bottom: 10px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: #f0ecec;
+    color: #030303; 
+
 }
 
 #contact
@@ -46,7 +47,7 @@
     padding-bottom: 10px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: #389979;
+	color: #030303; 
     }
 
 a:hover {
@@ -74,12 +75,11 @@ a:hover {
   div {
     background-image:
         url("a.jpg");
-        background-blend-mode: overlay
-        
-        
- 
+        background-blend-mode: initial
+        } 
 
-  }
+
+   
 
   colum-left{ width: 30%;
     display: inline-block; 
